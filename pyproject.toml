@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clinica-demo-innovaheart"
+version = "0.0.1"
+description = "Clinica Demo"
+authors = ["The Aramis Lab"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+xnat = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.6.2"
+jupytext = "^1.14.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
